@@ -35,11 +35,13 @@ Search for **Moonbloom** in the Marketplace and install it.
 ### Manual Installation
 
 1. Download or clone this repository.
-2. Copy the **Moonbloom** folder to your Spicetify Themes directory.
-3. Apply the theme.
+2. Extract the archive.
+3. Copy the **Moonbloom-main** folder to your Spicetify Themes directory.
+4. Apply the theme:
 
 ```bash
-spicetify config current_theme Moonbloom
+spicetify config current_theme Moonbloom-main
+spicetify config color_scheme Base
 spicetify apply
 ```
 
