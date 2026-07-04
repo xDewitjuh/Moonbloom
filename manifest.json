@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Moonbloom",
+    "description": "A dreamy and customizable Spotify theme for Spicetify with wallpaper and color customization.",
+    "preview": "Moonbloom/images/preview.png",
+    "readme": "Moonbloom/README.md",
+    "usercss": "Moonbloom/user.css",
+    "schemes": "Moonbloom/color.ini",
+    "include": [
+      "Moonbloom/theme.js"
+    ],
+    "authors": [
+      {
+        "name": "xDewitjuh",
+        "url": "https://github.com/xDewitjuh"
+      }
+    ]
+  }
+]
