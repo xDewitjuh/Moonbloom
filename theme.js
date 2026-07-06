@@ -613,6 +613,24 @@ waitForElement(['.Root__top-container'], ([topContainer]) => {
           content
         });
 
+        setTimeout(() => {
+
+          const modal = document.querySelector("[role='dialog']");
+
+          if (!modal) return;
+
+          modal.style.width = "900px";
+          modal.style.maxWidth = "900px";
+          modal.style.maxHeight = "80vh";
+
+          const container = modal.querySelector(".main-popupModal-container");
+          if (container) {
+            container.style.width = "900px";
+            container.style.maxWidth = "900px";
+          }
+
+        }, 10);
+
         switchTab(
           wallpaperTab,
           wallpaperPage
